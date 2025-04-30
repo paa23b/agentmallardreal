@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     int kills = 0;
     int keys;
     public TMP_Text killsText;
     public TMP_Text keysText;
+    public Slider detectionSlider;
     public RawImage[] livesImages;
     public PlayerData playerData;
     // Start is called before the first frame update
@@ -35,9 +36,21 @@ public class UIManager : MonoBehaviour
     public void UpdateHealth()
     {
         int health = playerData.Health;
-        for (int i = 0; i < livesImages.Length; i++)
+        if (health == 0)
         {
-            if (i >= health) livesImages[i].enabled = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        else
+        {
+            for (int i = 0; i < livesImages.Length; i++)
+            {
+                if (i >= health) livesImages[i].enabled = false;
+            }
+        }
+    }
+
+    public void SetDetectionValue(int value)
+    {
+        detectionSlider.value = value;
     }
 }

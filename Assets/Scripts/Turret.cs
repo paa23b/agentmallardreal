@@ -6,7 +6,7 @@ public class Turret : MonoBehaviour
 {
    
     public bool Found = false;
-    public GameObject sight;
+    GameObject sight;
     Detection detection;
     public GameObject projectile;
     public float launchVelocity = 700f;
@@ -15,8 +15,9 @@ public class Turret : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        sight = GameObject.Find("Sight");
-        detection = sight.GetComponent<Detection>();
+        //sight = GameObject.Find("Sight");
+        detection = GetComponentInChildren<Detection>();
+        sight = detection.gameObject;
     }
 
     void Start()
@@ -31,6 +32,7 @@ public class Turret : MonoBehaviour
         {
             Bullettime = 0;
             Found = true;
+            sight.SetActive(false);
         }
 
         if (Found == true)

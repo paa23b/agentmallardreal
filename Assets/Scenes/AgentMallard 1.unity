@@ -1028,25 +1028,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.020000001, z: 0.002486168}
   m_Center: {x: 0, y: 2.8942801e-13, z: 0.001243084}
---- !u!1 &590861120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2429131156936464648, guid: ced7920b704cc57439305dd13069ebfc, type: 3}
-  m_PrefabInstance: {fileID: 2653585018986791750}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &590861125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590861120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d525ca4228d6227409cf8402b6a8b832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 5
-  Ammo: 20
 --- !u!1 &625339501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,11 +2864,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2429131156936464648, guid: ced7920b704cc57439305dd13069ebfc, type: 3}
       insertIndex: -1
-<<<<<<< HEAD
-      addedObject: {fileID: 590861125}
-=======
       addedObject: {fileID: 888776780}
->>>>>>> a728668cf620659a82e218974a2432cb60947cd2
   m_SourcePrefab: {fileID: 100100000, guid: ced7920b704cc57439305dd13069ebfc, type: 3}
 --- !u!1001 &3100323192272926023
 PrefabInstance:
@@ -2989,6 +2966,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8660078121039651934, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_text
+      value: 'Objective: Find a way to open the vent'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3017,13 +2998,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
     - target: {fileID: 4635483339056805606, guid: dfeab0f8ba06f464b8f94dd21ed3a90d, type: 3}
       propertyPath: m_ProvidesContacts
       value: 0
       objectReference: {fileID: 0}
->>>>>>> a728668cf620659a82e218974a2432cb60947cd2
     - target: {fileID: 6307930566715037414, guid: dfeab0f8ba06f464b8f94dd21ed3a90d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.202808

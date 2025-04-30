@@ -32,11 +32,11 @@ public class BulletScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(this.gameObject);
+            UIManager manager = GameObject.Find("Canvas").GetComponent<UIManager>();
             data.Health = data.Health - 1;
-          
+            manager.UpdateHealth();
 
-            
+            Destroy(this.gameObject);
         }
 
         if (collision.gameObject.tag == "Wall")

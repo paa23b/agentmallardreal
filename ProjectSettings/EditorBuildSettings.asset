@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AgentMallard.unity
-    guid: 419dc365f660ec84eaf2fa8b5380b737
+    path: Assets/Scenes/MainMenu.unity
+    guid: 56c1293045e531f4c83b572fa059b29b
+  - enabled: 1
+    path: Assets/Scenes/AgentMallard 1.unity
+    guid: 756e394fb6dba7345a3fd533ba46b64f
   - enabled: 1
     path: Assets/Scenes/AgentMallard2.unity
     guid: 7a3a70731c60d7f4a89e14595502fe0d
