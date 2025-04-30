@@ -2653,6 +2653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crosshair
       objectReference: {fileID: 0}
+    - target: {fileID: 2989421372892220074, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989421372892220074, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 6859618199332240324, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2732,6 +2740,26 @@ PrefabInstance:
     - target: {fileID: 6859618199332240324, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479888025770852276, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -140
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479888025770852276, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528503832957754304, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528503832957754304, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660078121039651934, guid: 5a6766d31f9064c4ea3ddcb3e202e322, type: 3}
+      propertyPath: m_text
+      value: 'Objective: Grab all the keycards'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
