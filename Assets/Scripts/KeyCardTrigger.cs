@@ -10,6 +10,8 @@ public class Lasers : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            UIManager ui = GameObject.Find("Canvas").GetComponent<UIManager>();
+            ui.GrabKey();
             laserDoor.SetActive(false);
             Destroy(gameObject);
         }

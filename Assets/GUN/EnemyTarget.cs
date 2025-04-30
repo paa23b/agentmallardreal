@@ -31,6 +31,8 @@ public class EnemyTarget : MonoBehaviour
     }
     void Die()
     {
+        UIManager ui = GameObject.Find("Canvas").GetComponent<UIManager>();
+        ui.KillEnemy();
         Destroy(gameObject);
     }
 }
